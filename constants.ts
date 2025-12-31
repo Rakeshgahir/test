@@ -1,0 +1,40 @@
+
+import { ISOStandard } from './types';
+
+export const CORE_STANDARDS: ISOStandard[] = [
+  { id: '27000', number: 27000, title: 'Overview and Vocabulary', category: 'Vocabulary', shortDescription: 'Overview of ISMS (Information Security Management System) and vocabulary.', importance: 'Foundational' },
+  { id: '27001', number: 27001, title: 'ISMS Requirements', category: 'Requirements', shortDescription: 'Requirements for establishing, implementing, maintaining, and improving an ISMS. The only certifiable standard.', importance: 'Critical' },
+  { id: '27002', number: 27002, title: 'Information Security Controls', category: 'Guidelines', shortDescription: 'Code of practice: provides guidelines and best practices for implementing security controls.', importance: 'Critical' },
+  { id: '27003', number: 27003, title: 'ISMS Implementation Guidance', category: 'Guidelines', shortDescription: 'Guidance on implementing an ISMS, including planning and processes.', importance: 'High' },
+  { id: '27004', number: 27004, title: 'Monitoring and Measurement', category: 'Guidelines', shortDescription: 'Guidelines on monitoring, measurement, analysis, and evaluation of the ISMS effectiveness.', importance: 'Medium' },
+  { id: '27005', number: 27005, title: 'Information Security Risk Management', category: 'Guidelines', shortDescription: 'Information security risk management: provides methods to identify, assess, and treat risks.', importance: 'High' },
+  { id: '27006', number: 27006, title: 'Certification Body Requirements', category: 'Requirements', shortDescription: 'Requirements for certification bodies that audit ISMS for ISO 27001 certification.', importance: 'Medium' },
+  { id: '27007', number: 27007, title: 'ISMS Auditing Guidelines', category: 'Guidelines', shortDescription: 'Guidelines for auditing an ISMS, including auditing principles and practices.', importance: 'Medium' },
+  { id: '27008', number: 27008, title: 'Auditor Control Assessment', category: 'Guidelines', shortDescription: 'Guidelines for auditors on assessing controls in an ISMS.', importance: 'Medium' },
+  { id: '27009', number: 27009, title: 'Sector-specific Application', category: 'Sector Specific', shortDescription: 'Sector-specific application of ISO 27001 (tailoring ISMS for different industries).', importance: 'Medium' },
+  { id: '27010', number: 27010, title: 'Inter-sector Communication', category: 'Governance', shortDescription: 'Information security management for inter-sector and inter-organizational communications.', importance: 'Medium' },
+  { id: '27011', number: 27011, title: 'Telecom Guidelines', category: 'Sector Specific', shortDescription: 'Guidelines for information security in telecommunications organizations.', importance: 'Medium' },
+  { id: '27013', number: 27013, title: 'Integrating 27001 & 22301', category: 'Guidelines', shortDescription: 'Guidance on integrating ISO 27001 with ISO 22301 (business continuity).', importance: 'High' },
+  { id: '27014', number: 27014, title: 'Governance of Security', category: 'Governance', shortDescription: 'Governance of information security at the organizational level.', importance: 'High' },
+  { id: '27015', number: 27015, title: 'Financial Services Security', category: 'Sector Specific', shortDescription: 'Information security management in financial services.', importance: 'Medium' },
+  { id: '27016', number: 27016, title: 'Security Economics', category: 'Governance', shortDescription: 'Information security economics: measuring and justifying security investments.', importance: 'Medium' },
+  { id: '27017', number: 27017, title: 'Cloud Services Security', category: 'Sector Specific', shortDescription: 'Cloud-specific information security controls (for cloud service providers and customers).', importance: 'High' },
+  { id: '27018', number: 27018, title: 'PII Protection in Clouds', category: 'Privacy', shortDescription: 'Protection of personally identifiable information (PII) in public clouds.', importance: 'High' },
+  { id: '27019', number: 27019, title: 'Energy Utilities Security', category: 'Sector Specific', shortDescription: 'Information security in energy utilities.', importance: 'Medium' },
+  { id: '27031', number: 27031, title: 'ICT Readiness for BC', category: 'Guidelines', shortDescription: 'Guidelines for ICT readiness for business continuity.', importance: 'High' },
+  { id: '27032', number: 27032, title: 'Cybersecurity Guidelines', category: 'Guidelines', shortDescription: 'Cybersecurity guidelines, focusing on protecting cyberspace.', importance: 'High' },
+  { id: '27033', number: 27033, title: 'Network Security', category: 'Guidelines', shortDescription: 'Network security guidelines (divided into multiple parts).', importance: 'Medium' },
+  { id: '27034', number: 27034, title: 'Application Security', category: 'Guidelines', shortDescription: 'Application security management.', importance: 'Medium' },
+  { id: '27035', number: 27035, title: 'Incident Management', category: 'Guidelines', shortDescription: 'Information security incident management.', importance: 'High' },
+  { id: '27036', number: 27036, title: 'Supplier Relationships', category: 'Guidelines', shortDescription: 'Information security for supplier relationships.', importance: 'Medium' },
+  { id: '27037', number: 27037, title: 'Digital Evidence Handling', category: 'Guidelines', shortDescription: 'Guidelines for digital evidence handling in investigations.', importance: 'Medium' },
+  /* Fix: Changed 'Low' to 'Medium' to match ISOStandard importance type */
+  { id: '27038', number: 27038, title: 'Digital Redaction', category: 'Guidelines', shortDescription: 'Digital redaction guidelines.', importance: 'Medium' },
+  { id: '27039', number: 27039, title: 'Intrusion Detection/Prevention', category: 'Guidelines', shortDescription: 'Intrusion detection and prevention.', importance: 'Medium' },
+  { id: '27040', number: 27040, title: 'Storage Security', category: 'Guidelines', shortDescription: 'Storage security.', importance: 'Medium' },
+  { id: '27041', number: 27041, title: 'Evaluating Detection Controls', category: 'Guidelines', shortDescription: 'Guidance for evaluating detection controls.', importance: 'Medium' },
+  { id: '27042', number: 27042, title: 'Analyzing Digital Evidence', category: 'Guidelines', shortDescription: 'Guidelines for analyzing digital evidence.', importance: 'Medium' },
+  { id: '27043', number: 27043, title: 'Investigation Processes', category: 'Guidelines', shortDescription: 'Investigation processes for digital evidence.', importance: 'Medium' },
+  { id: '27044', number: 27044, title: 'Event Management', category: 'Guidelines', shortDescription: 'Information security event management.', importance: 'Medium' },
+  { id: '27701', number: 27701, title: 'Privacy Information Management (PIMS)', category: 'Privacy', shortDescription: 'Privacy Information Management System (PIMS) extension to ISO 27001 and 27002.', importance: 'Critical' }
+];
